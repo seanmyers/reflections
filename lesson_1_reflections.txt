@@ -1,0 +1,40 @@
+Q: How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+A: Using the DIFF command, you could easily see the lines that were changed and
+what was changed.
+This made it easy to compare the two files.
+
+Q: How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+A: You can easily see what improvements/changes you have made over time and see
+how what you thought was the right way has chnaged. Versions can also contribute
+to one's confidence that they are improving with each new exercise and task.
+
+Q: What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+A: the PROS are that you can define the number of changes that get committed at
+any given time thus giving you the ability to manage what is in each revision.
+Revisions, or commits, should have some kind of logic to them so that a single
+commit represents a single theme or set of changes. The CONS are that you might
+foregt to commit changes frequently enough and risk the possiblity of losing
+code or not effectively tracking progress.
+
+Q: Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+A: This is because software code is typically broken up into several,
+inter-related file. It is important to commit all of the files at once because
+of this relationship. Google Docs are usually standalone files.
+
+Q: How can you use the commands git log and git diff to view the history of
+files?
+A: git log will show all the commits that have been made with the uniquw commit
+ID. Using these IDs as input, one can then request Git to show the differences
+between the commits.
+
+Q: How might using version control make you more confident to make changes that
+could break something?
+A: If a mistake is made (e.g. a bug is introduced) it is possible to revert to
+older commits (versions) and begin again.
+

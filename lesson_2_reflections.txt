@@ -1,0 +1,2 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: One now has the ability to make commits and start versioning the code.
