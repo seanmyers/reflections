@@ -20,3 +20,7 @@ project and it is important to maintain the integrity of the master branch.
 
 Q: How do the diagrams help you visualize the branch structure?
 A: The diagram shows the parents of commits including branches.
+
+Q: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+A: One gets a commit that combines code from the branches.
