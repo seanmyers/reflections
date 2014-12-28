@@ -5,3 +5,18 @@ Q: How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 A: The staging area contains changes BEFORE they are committed. It allows one to
 rest their commist before they happen AND choose what should be committed.
+
+Q: How can you use the staging area to make sure you have one commit per logical
+change?
+A: Before you make a commit review the staging to make sure all the files that
+were needed to fix a specific issue or are part of a feature are all added to
+staging.
+
+Q: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+A: Branches can be used when there are bugs to fix or small features to add.
+This is very helpful when you have several programmers working on a single
+project and it is important to maintain the integrity of the master branch.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: The diagram shows the parents of commits including branches.
