@@ -1,2 +1,7 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 A: One now has the ability to make commits and start versioning the code.
+
+Q: How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+A: The staging area contains changes BEFORE they are committed. It allows one to
+rest their commist before they happen AND choose what should be committed.
