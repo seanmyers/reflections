@@ -5,3 +5,10 @@ Q: Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 A: There may be changes made to the master branch (or any branch) that one might
 not want to merge. There is also more control.
+
+Q: Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+A: Forks are essentially clones but are created via GitHub. Forks make sure that
+the original authors are acknowledged. Clones are copies of repos that have no
+record of the original author. Clones are created using git. Branches are
+variations of a master branch. They are created using git.
