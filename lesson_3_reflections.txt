@@ -12,3 +12,8 @@ A: Forks are essentially clones but are created via GitHub. Forks make sure that
 the original authors are acknowledged. Clones are copies of repos that have no
 record of the original author. Clones are created using git. Branches are
 variations of a master branch. They are created using git.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+A: One knows if they have commits that are ahead of the remote and need to be
+merged.
